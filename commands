@@ -1,0 +1,44 @@
+
+// Checking version of node js installed
+node -v
+
+// Running a node js file
+node <filename.js>
+
+npm --> node package manager
+express --> provides easy and flexible routing system. / contains middleware framework.(the code in the middle of the request and response)
+nodemon --> helps to update browser content dynamically. (without running command again and again)
+
+// To install package.json & package-lock.json file
+npm init
+<fill out the required info and then see your saved inputs in package.json file>
+
+// To install express and adding it to dependencies
+npm install express -save
+
+// To uninstall express
+npm uninstall express --no-save
+< This command does not remove express from dependencies, you have to do it manually >
+
+// To install all the dependencies mentioned in package.json
+npm install
+
+// To install nodemon --------------- REMAINING-----------------//
+npm install nodemon -g
+< Note: nodemon is installed globally, so you won't be able to see nodemon files in your project directory >
+
+Set-ExecutionPolicy RemoteSigned
+
+//---------Installing view engine or the template engine----------//
+// To install Embedded Javascript i.e ejs
+npm install ejs -save
+// <% javascript code %>   <%= output code %>
+
+//---------Handling post requests using body parser middleware----------//
+// To install body-parser middleware
+npm install body-parser -save
+
+//---------node mailer used to send emails from nodejs application----------//
+
+//---------Installing mongoose to deal with mongodb----------//
+npm install mongoose -save
