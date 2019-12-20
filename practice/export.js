@@ -1,3 +1,5 @@
+//**********EXPORTING FUNCTIONS GLOBALLY***********//
+
 var arrlength = function(a){
   for(i=0;i<a.length;i++){
     console.log(a[i]);
@@ -11,7 +13,7 @@ module.exports.adder = function(x,y){
 }
 
 var areaCir = function(r){
-  return `Area of circle = ${Math.PI*Math.pow(r,2)}`;
+  return `Area of circle = ${Math.PI*Math.pow(r,2)}`;       //Ecma script 6
 }
 
 var g = 9.8;

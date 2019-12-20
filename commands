@@ -23,7 +23,7 @@ npm uninstall express --no-save
 // To install all the dependencies mentioned in package.json
 npm install
 
-// To install nodemon --------------- REMAINING-----------------//
+// To install nodemon ---------------COULDN'T INSTALL - REMAINING -----------------//
 npm install nodemon -g
 < Note: nodemon is installed globally, so you won't be able to see nodemon files in your project directory >
 
